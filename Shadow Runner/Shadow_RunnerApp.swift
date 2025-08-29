@@ -12,6 +12,14 @@ struct Shadow_RunnerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.white)
+                .ignoresSafeArea()
         }
+        #if os(macOS)
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentSize)
+        .defaultSize(width: 1200, height: 800)
+        #endif
     }
 }
