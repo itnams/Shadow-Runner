@@ -25,7 +25,7 @@ A modern, responsive endless runner game built with SwiftUI, featuring smooth an
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Shadow-Runner.git
+git clone https://github.com/itnams/Shadow-Runner.git
 cd Shadow-Runner
 ```
 
